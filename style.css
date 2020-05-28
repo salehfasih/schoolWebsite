@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color:rgb(252, 210, 5) !important;
+}
+.sch{
+    color: #E53935;
+    text-shadow: 2px 2px 4px green;
+    font-size: 26px;
+    font-weight: bold;
+    
+    
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+}
+.nav-link:hover{
+    border-bottom:#E53935 !important ;
+    background-color:#E53935;
+}
+.carousel{
+    margin-top:px;
+
+}
+.story{
+    color: #E53935;
+text-shadow: 2px 2px 4px yellow;
+font-size: 39px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: underline;
+text-align: center;
+font-weight: bolder;
+}
+iframe{
+    width:470px;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.maincad{
+    background-color:white;
+    width: 100%;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.carousel-inner{
+    border: 2px solid rgb(172, 160, 160);
+
+}
+.col1,.col2{
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+    .col1,.col2 {
+      width: 100%;
+    }
+  }
+  .cs{
+      height: 100px !important;
+  }
+  .card-text{
+      justify-content: center;
+      font-weight: bolder;
+      color:wheat;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: underline;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .card{
+      width: 260px;
+      height: 270px !important;
+      margin-top: 70px;
+      background-color: #E53935;
+
+    
+  }
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      margin-top: 160px;
+
+      
+
+    }
+  }
+  .cadd{
+      margin-top: 10px;
+      height: 400px;
+    
+  }
+  @media screen and (max-width: 600px) {
+    iframe{
+      
+      display: block;
+      margin-left: -20px;
+    }
+  }
+  iframe{
+      background-color: #E53935;
+  }
+  body{
+      background-color:rgb(252, 210, 5);
+  }
+  .col{
+      margin-left: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .sch{
+      font-size: 20px;
+    }
+  }
+  
+  .ab{
+      color: white;
+      text-shadow: 2px 2px 4px black;
+      margin-left: 30px;
+      }
+      hr{
+          color:white;
+          font-weight: 100px;;
+          background-color: white;
+          width: 93%;
+          margin-left: 30px;
+      }
+      .bout{
+          background-color: white;
+          margin-left: 10px;
+          border-radius: 10px;
+          width: 96%;
+      }
+      .img{
+          margin-top: 10px;
+          width: 300px;
+          box-shadow: 2px 2px 3px gray;
+      }
+      .paa{
+          color: gray;
+          font-size: 21px;
+
+      }
+      .mis{
+        color:#BF360C;
+        text-shadow: 2px 2px 4px black;
+        margin-left: 0px;
+        font-size: 38px;
+      }
+      .img1{
+          height: 330px;
+          margin-top: 20px;
+          box-shadow: 2px 2px 3px gray;
+      }
+      .img3{
+          margin-top: 10px;
+          height:200px;
+
+      }
+      .gmail{
+          width: 1300px;
+          margin-left: 60px;
+          border: 2px solid #E53935;
+      }
+      .map{
+          width: 1260px;
+          margin-left: 13px;
+          height: 460px;
+
+          
+      }
+      .img-fluid{
+          width: 1260px;
+          margin-left: 30px;
+          border: 2px solid white;
+      }
+      @media screen and (max-width: 600px) {
+        .img-fluid{
+          justify-content: center;
+          margin-left: 0px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .map{
+          width: 400px;
+        }
+      }
+      .footer{
+          width: 100%;
+          height: 100px;
+          color: white;
+        margin-top: 30px;}
+        @media screen and (max-width: 600px) {
+            .footer{
+              margin-top: 100px;
+            }
+          }
+          .iphone,li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 30px;
+          }
+          @media screen and (max-width: 600px) {
+            .iphone,li,iframe{
+              justify-content: center;
+              align-items: center;
+              width: 90%;
+              margin-left: 20px;
+            }
+          }
+
+
+
+
+
+
+
+
+
+
+
